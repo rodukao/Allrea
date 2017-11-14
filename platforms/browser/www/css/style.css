@@ -1,0 +1,84 @@
+html, body{
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+.main_menu{
+  height:10%;
+  padding:4% 0 0 0;
+}
+
+.main_menu ul{
+  padding:0;
+  margin:0;
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+
+.main_menu ul li{
+  height:100%;
+  display: inline-block;
+}
+
+.main_menu ul li img{
+  max-height:100%;
+}
+
+.content h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  padding:2% 10%;
+}
+
+.content h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  padding:0 10%;
+  margin:5% 0 5% 10%;
+}
+
+.borderRed{
+  border-left:30px solid #ff0000;
+}
+
+.borderCyan{
+  border-left:30px solid #00ffff;
+}
+
+.borderGreen{
+  border-left:30px solid #00a651;
+}
+
+.content img{
+  max-width: 90%;
+  padding-bottom:15%;
+  margin:auto;
+  display: block;
+}
+
+.circ, .tri, .quad{
+  display: none;
+  width:100%;
+  height:90%;
+}
+
+.inputValor{
+  font-size: 1.4em;
+  padding:1%;
+  margin-top:2%;
+  background-color:#eee;
+}
+
+.button{
+  font-size: 2em;
+  display: block;
+  padding:5%;
+  width:50%;
+  margin:10% auto;
+}

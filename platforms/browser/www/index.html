@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <title>Allrea</title>
+    <link rel="stylesheet" href="css/style.css"
+  </head>
+  <body>
+    <nav class="main_menu">
+      <ul id="main_menu">
+        <li><a href="#"><img onclick="displaySection('circ');" src="img/menu_circ.png"></a></li>
+        <li><a href="#"><img onclick="displaySection('tri');" src="img/menu_tri.png"></a></li>
+        <li><a href="#"><img onclick="displaySection('quad');" src="img/menu_quad.png"></a></li>
+      </ul>
+    </nav>
+
+    <div class="content" id="content">
+
+      <section class="circ" id="circ">
+        <h1>CÍRCULO</h1>
+        <img src="img/circ.png">
+        <h2 class="borderRed">CIRCUNFERÊNCIA<br> <input class="inputValor" type="text" value="" id="circC" onfocusout="calcCirc('circC')"></input></h2>
+        <h2 class="borderCyan">DIÂMETRO<br> <input class="inputValor" type="text" value="" id="circD" onfocusout="calcCirc('circD')"></h2>
+        <h2 class="borderGreen">RAIO<br> <input class="inputValor" type="text" value="" id="circR" onfocusout="calcCirc('circR')"></h2>
+      </section>
+
+      <section class="tri" id="tri">
+        <h1>Triângulo</h1>
+      </section>
+
+      <section class="quad" id="quad">
+        <h1>Quadrado</h1>
+      </section>
+    </div>
+
+  </body>
+
+  <script type="text/javascript" src="js/scripts.js"></script>
+</html>
